@@ -1,0 +1,89 @@
+@import url('https://fonts.googleapis.com/css2?family=Inter:ital,opsz,wght@0,14..32,100..900;1,14..32,100..900&family=Winky+Sans:ital,wght@0,300..900;1,300..900&display=swap');
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+
+.container{
+    max-width: 1200px;
+    margin: 0 auto;
+    padding-left: 10px;
+    padding-right: 10px;
+   
+}
+nav{
+    background-color: black;
+    padding: 15px;
+}
+.firstrow{
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+ul{
+    display: flex;
+   gap: 30px;
+   list-style-type: none;
+  
+}
+ul, li, a{
+    font-family: Inter;
+font-weight: 500;
+font-size: 18px;
+line-height: 100%;
+letter-spacing: 0%;
+color: white;
+text-decoration: none;
+}
+
+    
+
+.ata {
+    width: 700px;
+    height: 176px;
+    margin-top: 184px;
+    display: flex;
+    justify-content: end;
+margin: 184px auto;
+
+}
+h1{
+    font-family: Inter;
+    font-weight: 400;
+    font-size: 56px;
+    letter-spacing: 5px;
+    line-height: 90px;
+    text-align: center;
+}
+.text{
+    text-align: center;
+
+}
+.megaota{
+   display: flex;
+   flex-wrap: wrap;
+   gap: 45px;
+   justify-content: center;
+   margin-bottom: 45px;
+}
+.bola{
+    width: 393px;
+    height: 396;
+display: flex;
+flex-wrap: wrap;
+gap: 19px;
+justify-content: center;
+align-items: center;
+
+}
+p, h2{
+    text-align: center;
+    
+   
+}
+h2{
+    padding:18px ;
+   
+}
